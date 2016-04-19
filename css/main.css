@@ -23,7 +23,7 @@ body {
   margin: 0;
 }
 
-/*-------------------------nav bar------------------------*/
+/* -------------------------nav bar------------------------ */
 
 header {
   background-color: red;
@@ -108,7 +108,7 @@ nav a:hover {
   background-color: red;
 }
 
-/*-------------------------banner------------------------*/
+/* -------------------------banner------------------------ */
 
 .title {
   font-weight: 600;
@@ -191,7 +191,7 @@ a {
   background-color: #fff;
 }
 
-/*-------------------------link cards------------------------*/
+/* -------------------------link cards------------------------ */
 
 .link-card {
   background-color: red;
@@ -200,8 +200,9 @@ a {
 }
 
 .card-icon {
+  max-width: 100%;
 }
 
 .card-text {
-  font-size: 3rem
+  font-size: 3rem;
 }
