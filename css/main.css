@@ -220,3 +220,22 @@ a {
 }
 
 /* -------------------------body------------------------ */
+
+.body-title h3 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: lighter;
+  display: inline-block;
+  margin: 0;
+  margin-left: .5rem;
+}
+
+.body-title img {
+  max-width: 15%;
+}
+
+.body-title {
+  background-color: red;
+  margin: 1rem 0 1rem 0;
+  vertical-align: center;
+}
