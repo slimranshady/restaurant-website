@@ -228,14 +228,16 @@ a {
   display: inline-block;
   margin: 0;
   margin-left: .5rem;
+  vertical-align: middle;
 }
 
 .body-title img {
   max-width: 15%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .body-title {
   background-color: red;
   margin: 1rem 0 1rem 0;
-  vertical-align: center;
 }
