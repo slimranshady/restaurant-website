@@ -193,7 +193,7 @@ a {
 
 /* -------------------------link cards------------------------ */
 
-.link-card {
+.link-cards {
   background-color: red;
   width: 100%;
   text-align: center;
@@ -203,6 +203,20 @@ a {
   max-width: 100%;
 }
 
-.card-text {
+.card-text h3 {
   font-size: 3rem;
+  margin: 0;
+  font-weight: lighter;
 }
+
+.link-card {
+  border: 3px solid #fff;
+  display: block;
+}
+
+.link-card:hover {
+  background-color: #fff;
+  color: red;
+}
+
+/* -------------------------body------------------------ */
