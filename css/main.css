@@ -37,6 +37,7 @@ h1 {
   width: 100px;
   margin: 0;
   padding: 0;
+  margin-left: 1.3rem;
 }
 
 nav ul {
@@ -240,4 +241,26 @@ a {
 .body-title {
   background-color: red;
   margin: 1rem 0 1rem 0;
+}
+
+.body p {
+  line-height: 1.3rem;
+  font-size: 1rem;
+  padding: 2.6rem;
+}
+
+/* -------------------------footer------------------------ */
+
+footer {
+  background-color: red;
+  text-align: center;
+}
+
+.top {
+  max-width: 3.9rem;
+  margin: 1.3rem;
+}
+
+top:hover {
+  border: 1px solid #fff;
 }
