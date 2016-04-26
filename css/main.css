@@ -34,7 +34,7 @@ header {
 }
 
 h1 {
-  width: 100px;
+  width: 6.25rem;
   margin: 0;
   padding: 0;
   margin-left: 1.3rem;
@@ -308,6 +308,11 @@ nav li {
   align-items: center;
 }
 
+.hidden {
+  display: none;
+  float: left;
+}
+
 @media only screen and (min-width: 25em) {
 
   .title {
@@ -354,6 +359,39 @@ nav li {
     line-height: 1.4;
   }
 
+  .nav {
+    display: inline-flex;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.3rem;
+    list-style: none;
+    background-color: red;
+    margin-right: 1.3rem;
+  }
+
+  .nav a {
+    color: #fff;
+  }
+
+  .nav a:hover {
+    background-color: #fff;
+    color: red;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  h1 {
+    width: 7rem;
+    margin-left: 1.3rem;
+  }
+
+  .link-card {
+    width: 24%;
+    height: 15rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -361,6 +399,10 @@ nav li {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  h1 {
+    width: 7rem;
   }
 
 }
