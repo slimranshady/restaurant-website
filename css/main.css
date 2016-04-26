@@ -52,7 +52,7 @@ nav li {
 nav a {
   display: block;
   padding: .5em .75em;
-  color: #000;
+  color: red;
   text-decoration: none;
   text-align: center;
 }
@@ -114,6 +114,8 @@ nav a:hover {
 .title {
   font-weight: 600;
   font-size: 1.25rem;
+  position: absolute;
+  top: 3.9rem;
 }
 
 .img-flex {
@@ -195,13 +197,12 @@ a {
 /* -------------------------link cards------------------------ */
 
 .link-cards {
-  background-color: red;
-  width: 100%;
   text-align: center;
 }
 
-.card-icon {
-  max-width: 100%;
+.card-icon img {
+  max-width: 10rem;
+  margin-top: 2rem;
 }
 
 .card-text h3 {
@@ -211,8 +212,11 @@ a {
 }
 
 .link-card {
-  border: 3px solid #fff;
+  background-color: red;
+  border: 1.5px solid #fff;
   display: block;
+  width: 100%;
+  height: 320px;
 }
 
 .link-card:hover {
@@ -236,6 +240,7 @@ a {
   max-width: 15%;
   vertical-align: middle;
   display: inline-block;
+  padding: .25rem;
 }
 
 .body-title {
@@ -244,9 +249,9 @@ a {
 }
 
 .body p {
-  line-height: 1.3rem;
+  line-height: 1.75;
   font-size: 1rem;
-  padding: 2.6rem;
+  padding: 1.3rem;
 }
 
 /* -------------------------footer------------------------ */
@@ -256,11 +261,106 @@ footer {
   text-align: center;
 }
 
-.top {
-  max-width: 3.9rem;
+.top img {
+  width: 3.9rem;
   margin: 1.3rem;
 }
 
-top:hover {
-  border: 1px solid #fff;
+.top img:hover {
+  width: 5.2rem;
+}
+
+.footer-nav {
+  padding: .5rem 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+}
+
+.footer-nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.social-link img {
+  margin: 0;
+  width: 2.6rem;
+  margin: 1.3rem;
+  align-items: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .title {
+    top: 2rem;
+  }
+
+  .link-card {
+    width: 49%;
+    height: 12.5em;
+    display: inline-block;
+  }
+
+  .link-card img {
+    width: 7.8rem;
+    margin-top: 1.3rem;
+  }
+
+  .card-text h3 {
+    font-size: 2.6rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+  }
+
+  .welcome {
+    margin-top: 1.3rem;
+  }
+
+  .title {
+    top: 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
